@@ -1,0 +1,25 @@
+{
+  "name": "cotoha-api-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "fs": "^0.0.1-security",
+    "node-rest-client": "^3.1.0",
+    "path": "^0.12.7",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}

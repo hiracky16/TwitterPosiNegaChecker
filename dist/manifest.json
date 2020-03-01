@@ -1,0 +1,15 @@
+{
+  "name": "Twitter PosiNaga Checker",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Twitter PosiNega Check Chrome Extension",
+  "content_scripts": [{
+    "matches": ["https://twitter.com/hiracky16"],
+    "js": [
+      "bundle.js"
+    ],
+    "run_at": "document_end",
+    "all_frames": true
+  }]
+}
+
